@@ -21,7 +21,7 @@ func main() {
 	evento.GET("/estado/:estado",middleware.Authorization([]int{3}), handler.GetEventoEstado)
 	evento.POST("/",middleware.Authorization([]int{3}), handler.AddEvento)
 	evento.DELETE("/:titulo",middleware.Authorization([]int{3}),handler.DeleteEvento)
-	admin.PUT("/:titulo",middleware.Authorization([]int{3}),handler.UpdateEvento)
+	evento.PUT("/:titulo",middleware.Authorization([]int{3}),handler.UpdateEvento)
 
 
 	//Rutas de Usuario
