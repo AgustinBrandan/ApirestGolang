@@ -41,11 +41,11 @@ El admin puede cambiar un registro a traves del titulo del evento.
 ###### Get /admin/eventos/estado/:estado
 El admin puede ver los eventos por estado
 #### Usuarios
-######GET /user/eventos
+###### GET /user/eventos
 El usuario solo ve los eventos que estan en publicado
 ###### GET /user/eventos/:titulo
 El usuario puede filtrar los eventos por titulo
-######GET /user/eventos/fecha/:fecha
+##### GET /user/eventos/fecha/:fecha
 El usuario puede filtrar los eventos por fecha
 
 
